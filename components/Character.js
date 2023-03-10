@@ -1,4 +1,5 @@
 import React from "react";
+//import PropTypes from 'prop-types';
 // import peopleInfo from "../data/characterData.json";
 
 const Character = ({ name, birth, imgUrl, death, race, realm, spouse }) => {

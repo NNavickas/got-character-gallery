@@ -1,5 +1,6 @@
 import React from "react"
-import peopleInfo from "../data/characterData.json";
+import peopleInfo from "../src/data/characterData.json";
+import Character from "./Character";
 
 const CharacterGallery = () => {
     const characterComponentArray = peopleInfo.map(
